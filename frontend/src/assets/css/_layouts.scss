@@ -1,0 +1,90 @@
+.login {
+  padding: 5em 0;
+  .lg-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .loginform {
+      width: 100%;
+    }
+  }
+}
+
+.register {
+  padding: 5em 0;
+}
+.dropdown-menu {
+  background: $primary-color;
+}
+img.useravt {
+  width: 20px;
+  border-radius: 50%;
+}
+button#dropdown-basic {
+  padding: 0;
+  background: none;
+  border: 0;
+}
+.hero {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  padding: 4em;
+  background-image: url(../img/hero-bck.png);
+  background-color: #00000087;
+  background-blend-mode: overlay;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  .sitem {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    .adinfo {
+      width: 60%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      div {
+        span {
+          display: block;
+        }
+        h4 {
+          font-size: 4em;
+          color: #fff;
+        }
+        .price {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 2em;
+        }
+        .used {
+          font-weight: 900;
+          color: #fff;
+        }
+      }
+    }
+    .ad-img {
+      display: flex;
+      align-items: center;
+      width: 40%;
+      img {
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+.dropdown-item::hover {
+  a {
+    color: $primary-color;
+  }
+}
+
+.add-form {
+  width: 50%;
+  margin: 2em auto;
+  border: 1px solid #eee;
+  padding: 1em;
+}

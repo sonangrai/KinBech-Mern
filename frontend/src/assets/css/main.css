@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+.header {
+  background-color: #42484f;
+  padding: 0.5em 15px;
+}
+
+.header .logo a {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.header .mainmenu {
+  height: 100%;
+}
+
+.header .mainmenu ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+}
+
+.header .mainmenu ul li {
+  padding: 0 0.5em;
+}
+
+.header .mainmenu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #42484f;
+  padding: 2em 15px 0;
+  color: #fff;
+}
+
+.footer h2 {
+  font-size: 1em;
+  color: #fff;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-right: 1em;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer span {
+  margin: 2em 0;
+  display: block;
+}
+
+.login {
+  padding: 5em 0;
+}
+
+.login .lg-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.login .lg-form .loginform {
+  width: 100%;
+}
+
+.register {
+  padding: 5em 0;
+}
+
+.dropdown-menu {
+  background: #42484f;
+}
+
+img.useravt {
+  width: 20px;
+  border-radius: 50%;
+}
+
+button#dropdown-basic {
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
+.hero {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  padding: 4em;
+  background-image: url(../img/hero-bck.png);
+  background-color: #00000087;
+  background-blend-mode: overlay;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .sitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 600px;
+}
+
+.hero .sitem .adinfo {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .sitem .adinfo div span {
+  display: block;
+}
+
+.hero .sitem .adinfo div h4 {
+  font-size: 4em;
+  color: #fff;
+}
+
+.hero .sitem .adinfo div .price {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.hero .sitem .adinfo div .used {
+  font-weight: 900;
+  color: #fff;
+}
+
+.hero .sitem .ad-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+.hero .sitem .ad-img img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dropdown-item::hover a {
+  color: #42484f;
+}
+
+.add-form {
+  width: 50%;
+  margin: 2em auto;
+  border: 1px solid #eee;
+  padding: 1em;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Archivo", sans-serif;
+}
+
+.mycontainer {
+  width: 86%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.primary-btn {
+  background-color: #42484f;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  border: 0;
+  font-size: 0.8em;
+  padding: 1em 0;
+}
+
+.dark-btn {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  width: 300px;
+  font-size: 0.8em;
+  padding: 1em 0;
+  display: block;
+  text-align: center;
+}
+
+.toast {
+  position: absolute;
+  right: 7%;
+  top: 14%;
+  width: 30%;
+}
+
+.p-3 {
+  padding: 3em !important;
+  min-height: 70vh;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGOUT = "LOGOUT";
+export const CLEAR_PROFILE = "CLEAR_PROFILE";
+export const ACCOUNT_DELETED = "ACCOUNT_DELETED";
+
+export const ADS_LOADED = "ADS_LOADED";
+export const GET_ADS = "GET_ADS";
+export const GET_AD = "GET_AD";
+export const ADS_ERROR = "ADS_ERROR";
+export const ADS_APPROVED = "ADS_APPROVED";
+
+export const ADD_COMMENT = "ADD_COMMENT";
+export const LOAD_COMMENT = "LOAD_COMMENT";
+export const LOAD_ERROR = "LOAD_ERROR";
+export const REMOVE_COMMENT = "REMOVE_COMMENT";
+export const ERROR_COMMENT = "ERROR_COMMENT";
+export const COMMENT_DELETED = "COMMENT_DELETED";
+
+export const ADD_REPLY = "ADD_REPLY";
+export const ERROR_REPLY = "ERROR_REPLY";
+
+export const ADS_ADDED = "ADS_ADDED";
+export const ADS_ADDED_FAILED = "ADS_ADDED_FAILED";
+
+export const PROFILE_LOADED = "PROFILE_LOADED";
+export const PROFILE_LOAD_FAIL = "PROFILE_LOAD_FAIL";
+export const PROFILE_UPDATED = "PROFILE_UPDATED";
+export const PROFILE_UPDATED_FAIL = "PROFILE_UPDATED_FAIL";
+
+export const CATEGORY_ADDED = "CATEGORY_ADDED";
+export const CATEGORY_ADD_FAIL = "CATEGORY_ADD_FAIL";
+export const CATEGORY_FETCHED = "CATEGORY_FETCHED";
+export const CATEGORY_FETCHED_FAILED = "CATEGORY_FETCHED_FAILED";

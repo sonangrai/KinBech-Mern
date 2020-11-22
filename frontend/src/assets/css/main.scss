@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+@import "./variables";
+@import "./header";
+@import "./layouts";
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Archivo", sans-serif;
+}
+
+.mycontainer {
+  width: 86%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.primary-btn {
+  background-color: $primary-color;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  border: 0;
+  font-size: 0.8em;
+  padding: 1em 0;
+}
+.dark-btn {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  width: 300px;
+  font-size: 0.8em;
+  padding: 1em 0;
+  display: block;
+  text-align: center;
+}
+
+.toast {
+  position: absolute;
+  right: 7%;
+  top: 14%;
+  width: 30%;
+}
+
+.p-3 {
+  padding: 3em !important;
+  min-height: 70vh;
+}
